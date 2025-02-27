@@ -1,0 +1,16 @@
+modify the main method to use the seperate methods
+see everything is correct! that will be MVP 1
+Now
+Seperate to modules
+Full unit tests, mutation, sonar and so on
+Find out how to contribute to npm
+deploy to linux machine
+
+Run coverage
+understand what is module.exports
+understand how to extend npm
+
+Run mutation
+Lint
+
+Extract file-ops.service.mjs and unit tests to a different published dependency

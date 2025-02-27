@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "mutate": [
+    "**/*.mjs",
+    "!find-parents.mjs"
+  ],
+  "testRunner": "jest",
+  "jest": {
+    "projectType": "custom",
+    "config": {
+      "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.js$",
+      "moduleFileExtensions": ["js", "mjs"]
+    }
+  },
+  "reporters": ["html", "clear-text", "progress"],
+  "coverageAnalysis": "off"
+}
