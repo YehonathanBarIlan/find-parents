@@ -37,6 +37,14 @@
     "stryker": "^1.0.1",
     "stryker-api": "^0.9.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YehonathanBarIlan/find-parents.git"
+  },
+  "homepage": "https://github.com/YehonathanBarIlan/find-parents#readme",
+  "bugs": {
+    "url": "https://github.com/YehonathanBarIlan/find-parents/issues"
+  },
   "jest": {
     "moduleFileExtensions": [
       "js",
